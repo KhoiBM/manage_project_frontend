@@ -1,0 +1,26 @@
+    // "build": "tsc && vite build",
+        // alias: [{ find: /^~/, replacement: '' }],
+
+        import { Button as AntButton } from 'antd'
+import { ButtonProps } from 'antd/lib/button/button'
+
+import styled from 'styled-components'
+
+export const ButtonStyled: React.FunctionComponent<ButtonProps> = styled(AntButton)`
+  color: #fff;
+  background: tomato;
+  transition: all 0.5s ease 0s;
+
+  &.ant-btn {
+  }
+  &:hover {
+    color: #fff;
+    transform: scale(1.2) !important;
+  }
+  &:focus {
+    color: #fff;
+    transform: scale(1.2) !important;
+    outline: 1px ridge rgba(170, 50, 220, 0.6);
+    border-radius: 1rem;
+  }
+`

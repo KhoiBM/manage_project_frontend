@@ -1,0 +1,5 @@
+export * from './ManageProjectsPage'
+export * from './ManangeBugsManagerPage'
+export * from './ManangeTasksManagerPage'
+export * from './ManangerDashboardPage'
+export * from './ManangeDevsPage'
